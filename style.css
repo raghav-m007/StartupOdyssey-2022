@@ -1,26 +1,105 @@
-*{
-    font-family: 'Open Sans', sans-serif;
-    background-color: black;
+
+@font-face {
+  font-family: "Neutro";
+  src: url(fonts/NeutroEB.ttf) format("truetype");
 }
-#div  {  
-      display: flex;
+@font-face {
+  font-family: "SequelSansLight";
+  src: url(fonts/SequelSansLightDisp.ttf) format("truetype");
 }
-h1{
-    font-weight: bolder;
+@font-face {
+  font-family: "SequelSansMedium";
+  src: url(fonts/SequelSansMediumDisp.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SequelSansRoman";
+  src: url(fonts/SequelSansRomanDisp.ttf) format("truetype");
+}
+body{
+  color:white;
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.headings{
+  font-family: 'Neutro';
+  line-height: 73pt;
+  letter-spacing: 2px;
+  font-size: 36px;
 }
 
-#h1_2nd{
-    text-align: center;
+
+/* Header */
+.logo-box{
+  display: flex;
+  justify-content: space-between;
+  margin:49px
 }
-.para{
-    margin: auto;
+.logo1
+{
+  height: 99.98px;
+  width: 100px;
+}
+.logo2
+{
+  height: 99.47px;
+  width: 72.68px;
+}
+.header
+{
+  margin-top: 106px;
+  height: 476px;
+  padding-top: 100px;
+  margin:49px;
+}
+.so-title{
+  font-weight: 800;
+  font-size: 84px;
+  color: #FFFFFF;
+  line-height: 80pt;
+  letter-spacing: 2px;
+  margin: 0;
+  font-family: 'Neutro';
+}
+.so-caption{
+  font-weight:normal;
+  font-size: 32px;
+  color: #FFFFFF;
+  line-height: 32pt;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: 'SequelSansLight';
+}
+.so-register-link{
+  font-weight: bold;
+  
+}
+.register_now_link{
+  width:32px;
+}
+
+
+/* About */
+.about-container  {  
+  display: flex;
+  margin: 210px 0px;
+}
+#sponsored-by{
+  text-align: center;
+}
+.about{
      padding: 0%;
+     font-family:'SequelSansRoman';
 }
-#div1{
+.about-left{
     margin: 49px;
     width: 50%;
 }
-#div2{
+.about-right{
     display: grid;
     margin: 49px;
     width: 50%;
@@ -42,142 +121,407 @@ h1{
         margin-right: auto; 
 }
 
-@media screen and (max-width:725px) {
-    #div {  
-        display: block;
-        text-align: center;
-  }
-    
- #div1 {
-    display: inline;
- }
- #div2{
-    display: inline;
- }
- body
-{
-  background-color:#1363DF;
+
+
+
+
+
+/* 
+Upcoming talks */
+.upcoming-talks{
+  margin: 49px;
+  margin:262px 49px;
 }
-.logo1
-{
-  margin-left: 120.66px;
-  height: 99.98px;
-  width: 100px;
-  margin-top: 16.01px;
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
 }
-.logo2
-{
-  position: absolute;
-  right:120.66px;
-  top:0;
-  height: 99.47px;
-  width: 72.68px;
-  margin-top: 16.01px;
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.carousel-inner {
+  padding: 0px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 
-.header
-{
-  margin-top: 106px;
-  height: 476px;
+#rightMost{
+  margin-right:0;
+}
+.timing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height:32px;
+}
+.timing p{
+  font-family: "SSMD", sans-serif;
+  font-size: 16px;
+  padding-top:8px;
+  padding-bottom: 8px;
+}
 
+.speakerName{
+  font-family: "SSRD", sans-serif;
+  font-size: 32px;
+  margin-top:8px;
+  margin-bottom:8px;
+  
 }
-    h1
-{
-  margin:0;
-  margin-left: 120.66px;
-  padding-left: 0;
- font-weight:bold;
- color: #FFFFFF;
+
+.speakerDesignation{
+  font-family: "SSLD",sans-serif;
+  font-size: 24px;
+  padding-top: 4px ;
+  padding-bottom:4px;
+  
 }
-    h3
-{
-  margin:0;
-  margin-left: 120.66px;
-  padding-left: 0;
+
+.talkDescription{
+  font-family: "SSRD",sans-serif;
+  font-size: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.61);
+  padding-top: 12px;
   margin-top: 32px;
-  color: #FFFFFF;
-}
-.link
-{
-  margin-left: 120.66px;
-  margin-top: 44px;
-}
-p
-{
-  margin: 0;
-}
-   
 
+}
+
+.mycard{
+  background-color: transparent;
+  padding-left: 5%;padding-right: 5%;
+}
+
+
+
+
+
+/* Week Materials */
+.weeks{
+  margin: 49px;
+}
+.week-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.weeks-week{
+  font-family:'Neutro';
+  line-height: 40pt;
+  letter-spacing: 2px;
+  font-size: 26px;
+} 
+.weeks-no{
+  font-family:'Neutro';
+  line-height: 40pt;
+  letter-spacing: 2px;
+  font-size: 36px;
+} 
+.weeks-view{
+  font-family:'SequelSansLight';
+  line-height: 40pt;
+  letter-spacing: 2px;
+  font-size: 16px;
+
+} 
+.weeks-view-link{
+  color:white;
+  text-decoration: none;
+}
+.weeks-view-link:hover{
+  color:rgba(255, 255, 255, 0.542);
+  text-decoration: none;
+}
+hr{
+  height: 0.5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.week-resources{
+  margin:130px 49px;
+}
+.week-resource-heading{
+  font-size: 64px;
+  letter-spacing: 2px;
+  line-height: 60pt;
+  font-family:'SequelSansLight';
+  font-weight:800;
+}
+.week-resource-caption{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom:50px;
+}
+.week-resource-subtitle{
+  font-size: 24px;
+  line-height: 32pt;
+  letter-spacing: 2px;
+  font-family:'SequelSansLight';
+  color:rgba(255, 255, 255, 0.60);
+}
+.week-resource-asssignment{
+  font-size: 24px;
+  line-height: 32pt;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family:'SequelSansLight';
+}
+.assignment_link_icon{
+  width:24px;
+}
+
+.resourcecard{
+  background-color: transparent;
+  padding-left: 10px;padding-right: 10px;
+ 
+}
+.resourcetitle{
+  font-size: 16px;
+  font-family: 'SequelSansRoman';
+  line-height: 32pt;
+  letter-spacing: 2px;
+  color:rgba(255, 255, 255, 080);
+  font-weight: 100;
+}
+.resourcecontent{
+  font-size: 28px;
+  font-family: 'SequelSansRoman';
+  line-height: 32pt;
+  letter-spacing: 2px;
+  color:rgba(255, 255, 255, 080);
+}
+.resourceview{
+  font-size: 16px;
+  font-family: 'SequelSansRoman';
+  line-height: 32pt;
+  letter-spacing: 2px;
+  color:rgba(255, 255, 255, 080);
+}
+.view_resorce_link_icon{
+  width:16px;
 }
 /* footer */
-body
-{
-  background-color: blue;
-}
+
 .footer
 {
-margin-left: 120.66px;
-margin-top: 48px;
+margin:49px;
 color: white;
-}
-h1{
-  margin: 0;
-}
-h3
-{
-  font-style: normal;
-  font-weight: bold;
-  margin-left: 120.66px;
-  color: white;
-  margin: 0;
-  margin-top: 8px;
-}
-h4
-{
-font-style: normal;
-font-weight: normal;
-/* font-size: 18px; */
-/* line-height: 21px; */
-margin-left: 120.66px;
-color: white;
-margin: 0;
-margin-top: 8px;
+position:relative;
+display: flex;
+justify-content: space-between;
 
+}
+.footer-title{
+  margin:0;
+  font-weight: 800;
+  font-size: 36px;
+  color: #FFFFFF;
+  line-height: 24pt;
+  letter-spacing: 2px;
+  margin: 0;
+  font-family: 'Neutro';
+}
+.footer-caption{
+  margin:0;
+  line-height: 32pt;
+  font-weight: bold;
+  letter-spacing: 2%;
+  font-size:20px;
+  font-family: 'SequelSansLight';
+}
+.footer-copyright{
+  margin:0;
+  color:rgba(255, 255, 255, 0.60);
+  font-size:18px;
+  font-family: 'SequelSansLight';
+}
+
+.images{
+  position: relative;
 }
 .img1
 {
   position: absolute;
-  right: 135px;
-  top: 68px;
+  right: 0px;
+  top: 0px;
 }
 .img2
 {
   position: absolute;
-  right: 217px;
-  top: 68px;
+  right: 82px;
+  top: 0px;
 }
 .img3
 {
   position: absolute;
-  right: 217px;
-  top: 110px;
+  right: 82px;
+  top: 42px;
 }
 .img4
 {
   position: absolute;
-  right: 177px;
-  top: 152px;
+  right: 42px;
+  top: 84px;
 }
 .img5
 {
   position: absolute;
-  right: 135px;
-  top: 152px;
+  right: 0px;
+  top: 84px;
 }
 
 
 
 
 
+@media screen and (max-width:725px) {
+  *{
+    font-size:medium;
+    text-align: center;
+  }
+  body{
+    background-position:right;
+  }
+  .about-container,.upcoming-talks,.weeks,.footer{
+    margin:20px;
+  }
+  /* Header */
+  .header{
+    margin: 30px;
+  }
+  .headings{
+    font-size: 25px;
+    line-height: 31pt;
+    text-align: center;
+  }
+  .so-title{
+    font-weight: 800;
+    font-size: 39px;
+    color: #FFFFFF;
+    line-height: 30pt;
+    letter-spacing: 2px;
+    padding-bottom: 32px;
+  }
+  .so-caption{
+    font-size: 23px;
+    color: #FFFFFF;
+    line-height: 9pt;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .register_now_link{
+    width:23px;
+  }
+  
+  .about-container,.week-nav,.cards-wrapper,.week-resource-caption {  
+      display: block;
+      text-align: center;
+  }
+  
+  .about-left {
+    display: inline;
+  }
+  .about-right{
+    display: inline;
+  }
+
+  /*Footer*/
+  .footer-left{
+    width:50%;
+  }
+
+  .footer-caption{
+    font-size: 19px;
+  }
+  .footer-title{
+    font-size:20px;
+    line-height: 20px;
+  }
+
+
+  /* Cards */
+  .resourcecard{
+    padding:30px 0px;
+  }
+  .week-resource-heading{
+    font-size:50px;
+    line-height:31pt;
+  }
+  .week-resource-subtitle {
+    font-size: 21px;
+    line-height: 25pt;
+    letter-spacing: 2px;
+    font-family: 'SequelSansLight';
+    color: rgba(255, 255, 255, 0.60);
+  }
+  .week-resource-asssignment{
+    font-size: 19px;
+    line-height: 32pt;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family:'SequelSansLight';
+  }
+  .assignment_link_icon{
+    width:19px;
+  }
+
+
+  .talkDescription {
+    font-family: "SSRD",sans-serif;
+    font-size: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.61);
+    padding-top: 12px;
+    margin-top: 0px;
+  }
+  .speakerDesignation {
+    font-family: "SSLD",sans-serif;
+    font-size: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .speakerName {
+    font-family: "SSRD", sans-serif;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .timing{
+    height:45px;
+  }
+  .timing p{
+    font-size:17px;
+  }
+
+}
+
+@media screen and (max-width:350px) {
+  body{
+    background-position: right;
+  }
+  .about-container,.upcoming-talks,.weeks,.footer{
+    margin:10px;
+  }
+  .so-title{
+    font-weight: 800;
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 30pt;
+    letter-spacing: 2px;
+    padding-bottom: 32px;
+  }
+}
   
