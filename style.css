@@ -47,13 +47,51 @@ h1{
         display: block;
         text-align: center;
   }
+    
  #div1 {
     display: inline;
  }
  #div2{
     display: inline;
  }
- 
+ body
+{
+  background-color:#1363DF;
+}
+.logo1
+{
+  margin-left: 120.66px;
+  height: 99.98px;
+  width: 100px;
+  margin-top: 16.01px;
+}
+.logo2
+{
+  position: absolute;
+  right:120.66px;
+  top:0;
+  height: 99.47px;
+  width: 72.68px;
+  margin-top: 16.01px;
+}
+
+
+.header
+{
+  margin-top: 106px;
+  height: 476px;
+
+}
+.link
+{
+  margin-left: 120.66px;
+  margin-top: 44px;
+}
+p
+{
+  margin: 0;
+}
+
 }
 
 
