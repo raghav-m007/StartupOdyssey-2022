@@ -107,7 +107,73 @@ p
 {
   margin: 0;
 }
+   
 
+}
+/* footer */
+body
+{
+  background-color: blue;
+}
+.footer
+{
+margin-left: 120.66px;
+margin-top: 48px;
+color: white;
+}
+h1{
+  margin: 0;
+}
+h3
+{
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 120.66px;
+  color: white;
+  margin: 0;
+  margin-top: 8px;
+}
+h4
+{
+font-style: normal;
+font-weight: normal;
+/* font-size: 18px; */
+/* line-height: 21px; */
+margin-left: 120.66px;
+color: white;
+margin: 0;
+margin-top: 8px;
+
+}
+.img1
+{
+  position: absolute;
+  right: 135px;
+  top: 68px;
+}
+.img2
+{
+  position: absolute;
+  right: 217px;
+  top: 68px;
+}
+.img3
+{
+  position: absolute;
+  right: 217px;
+  top: 110px;
+}
+.img4
+{
+  position: absolute;
+  right: 177px;
+  top: 152px;
+}
+.img5
+{
+  position: absolute;
+  right: 135px;
+  top: 152px;
 }
 
 
