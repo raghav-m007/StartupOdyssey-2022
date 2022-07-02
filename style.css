@@ -383,7 +383,24 @@ justify-content: space-between;
   top: 84px;
 }
 
-
+@media screen and (max-width:380px) {
+  body{
+    background-position: right;
+  }
+  .about-container,.upcoming-talks,.weeks,.footer{
+    margin:10px;
+  }
+  .so-title{
+    font-weight: 800;
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 30pt;
+    letter-spacing: 2px;
+    padding-bottom: 32px;
+  }
+  
+  
+}
 
 
 
@@ -511,20 +528,5 @@ justify-content: space-between;
 
 }
 
-@media screen and (max-width:380px) {
-  body{
-    background-position: right;
-  }
-  .about-container,.upcoming-talks,.weeks,.footer{
-    margin:10px;
-  }
-  .so-title{
-    font-weight: 800;
-    font-size: 30px;
-    color: #FFFFFF;
-    line-height: 30pt;
-    letter-spacing: 2px;
-    padding-bottom: 32px;
-  }
-}
+
   
