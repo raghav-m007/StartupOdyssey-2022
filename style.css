@@ -474,6 +474,10 @@ justify-content: space-between;
   }
 
   /* Cards */
+  .mycard {
+    padding-top: 84px;
+    padding-bottom: 84px;
+  }
   .resourcecard{
     padding:30px 0px;
   }
