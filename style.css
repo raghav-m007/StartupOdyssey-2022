@@ -1,29 +1,33 @@
-
 @font-face {
   font-family: "Neutro";
   src: url(fonts/NeutroEB.ttf) format("truetype");
 }
+
 @font-face {
   font-family: "SequelSansLight";
   src: url(fonts/SequelSansLightDisp.ttf) format("truetype");
 }
+
 @font-face {
   font-family: "SequelSansMedium";
   src: url(fonts/SequelSansMediumDisp.ttf) format("truetype");
 }
+
 @font-face {
   font-family: "SequelSansRoman";
   src: url(fonts/SequelSansRomanDisp.ttf) format("truetype");
 }
-body{
-  color:white;
+
+body {
+  color: white;
   background-image: url('images/background.png');
   background-repeat: no-repeat;
 
   background-repeat: no-repeat;
   background-size: cover;
 }
-.headings{
+
+.headings {
   font-family: 'Neutro';
   line-height: 73pt;
   letter-spacing: 2px;
@@ -68,29 +72,30 @@ body{
 }
 
 /* Header */
-.logo-box{
+.logo-box {
   display: flex;
   justify-content: space-between;
-  margin:49px
+  margin: 49px
 }
-.logo1
-{
+
+.logo1 {
   height: 99.98px;
   width: 100px;
 }
-.logo2
-{
+
+.logo2 {
   height: 99.47px;
   width: 72.68px;
 }
-.header
-{
+
+.header {
   margin-top: 106px;
   height: 476px;
   padding-top: 100px;
-  margin:49px;
+  margin: 49px;
 }
-.so-title{
+
+.so-title {
   font-weight: 800;
   font-size: 84px;
   color: #FFFFFF;
@@ -99,8 +104,9 @@ body{
   margin: 0;
   font-family: 'Neutro';
 }
-.so-caption{
-  font-weight:normal;
+
+.so-caption {
+  font-weight: normal;
   font-size: 32px;
   color: #FFFFFF;
   line-height: 32pt;
@@ -110,52 +116,60 @@ body{
   padding-bottom: 10px;
   font-family: 'SequelSansLight';
 }
-.so-register-link{
+
+.so-register-link {
   font-weight: bold;
-  
+
 }
-.register_now_link{
-  width:32px;
+
+.register_now_link {
+  width: 32px;
 }
 
 
 /* About */
-.about-container  {  
+.about-container {
   display: flex;
   margin: 210px 0px;
 }
-#sponsored-by{
+
+#sponsored-by {
   text-align: center;
 }
-.about{
-     padding: 0%;
-     font-family:'SequelSansRoman';
-  font-size:24px;
+
+.about {
+  padding: 0%;
+  font-family: 'SequelSansRoman';
+  font-size: 24px;
 }
-.about-left{
-    margin: 49px;
-    width: 50%;
+
+.about-left {
+  margin: 49px;
+  width: 50%;
 }
-.about-right{
-    display: grid;
-    margin: 49px;
-    width: 50%;
+
+.about-right {
+  display: grid;
+  margin: 49px;
+  width: 50%;
 }
-#img1{
-   height: 72px;
-   width: 111px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  
+
+#img1 {
+  height: 125px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
-#img2{
-    height: 72px;
-    width: 111px;
-    
-        display: block;
-        margin-left: auto;
-        margin-right: auto; 
+
+#img2 {
+  height: 125px;
+  width: 150px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -165,27 +179,32 @@ body{
 
 /* 
 Upcoming talks */
-.upcoming-talks{
+.upcoming-talks {
   margin: 49px;
-  margin:262px 49px;
+  margin: 262px 49px;
 }
+
 .cards-wrapper {
   display: flex;
   justify-content: center;
 }
+
 .card img {
   max-width: 100%;
   max-height: 100%;
 }
+
 .card {
   margin: 0 0.5em;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
   border: none;
   border-radius: 0;
 }
+
 .carousel-inner {
   padding: 0px;
 }
+
 .carousel-control-prev,
 .carousel-control-next {
   background-color: #e1e1e1;
@@ -197,54 +216,59 @@ Upcoming talks */
 }
 
 
-#rightMost{
-  margin-right:0;
+#rightMost {
+  margin-right: 0;
 }
-.timing{
+
+.timing {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height:32px;
+  height: 32px;
 }
-.timing p{
+
+.timing p {
   font-family: "SSMD", sans-serif;
   font-size: 16px;
-  padding-top:8px;
+  padding-top: 8px;
   padding-bottom: 8px;
 }
 
-.speakerName{
+.speakerName {
   font-family: "SSRD", sans-serif;
   font-size: 32px;
-  margin-top:8px;
-  margin-bottom:8px;
-  
+  margin-top: 8px;
+  margin-bottom: 8px;
+
 }
 
-.speakerDesignation{
-  font-family: "SSLD",sans-serif;
+.speakerDesignation {
+  font-family: "SSLD", sans-serif;
   font-size: 24px;
-  padding-top: 4px ;
-  padding-bottom:4px;
-  
+  padding-top: 4px;
+  padding-bottom: 4px;
+
 }
 
-.talkDescription{
-  font-family: "SSRD",sans-serif;
+.talkDescription {
+  font-family: "SSRD", sans-serif;
   font-size: 24px;
   border-top: 1px solid rgba(255, 255, 255, 0.61);
   padding-top: 12px;
   margin-top: 32px;
 
 }
-.talkWatch{
-  font-family: "SSRD",sans-serif;
+
+.talkWatch {
+  font-family: "SSRD", sans-serif;
   font-size: 24px;
   margin-top: 16px;
 }
-.mycard{
+
+.mycard {
   background-color: transparent;
-  padding-left: 5%;padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
@@ -252,122 +276,188 @@ Upcoming talks */
 
 
 /* Week Materials */
-.weeks{
+.weeks {
   margin: 49px;
 }
-.week-nav{
+
+.week-nav {
   display: flex;
   justify-content: space-between;
 }
-.weeks-week{
-  font-family:'Neutro';
+
+.weeks-week {
+  font-family: 'Neutro';
   line-height: 40pt;
   letter-spacing: 2px;
   font-size: 26px;
-} 
-.weeks-no{
-  font-family:'Neutro';
+}
+
+.weeks-no {
+  font-family: 'Neutro';
   line-height: 40pt;
   letter-spacing: 2px;
   font-size: 36px;
-} 
-.weeks-view{
-  font-family:'SequelSansLight';
+}
+
+.weeks-view {
+  font-family: 'SequelSansLight';
   line-height: 40pt;
   letter-spacing: 2px;
   font-size: 16px;
 
-} 
-.weeks-view-link{
-  color:white;
+}
+
+.weeks-view-link {
+  color: white;
   text-decoration: none;
 }
-.weeks-view-link:hover{
-  color:rgba(255, 255, 255, 0.542);
+
+.weeks-view-link:hover {
+  color: rgba(255, 255, 255, 0.542);
   text-decoration: none;
 }
-hr{
+
+hr {
   height: 0.5px;
   background-color: rgb(255, 255, 255);
 }
 
+
 .week-resources{
   margin:70px 49px;
   padding-top:60px;
+
+
+#navBar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #0040AC;
+  height: 60px;
+  width: 100vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
 }
-.week-resource-heading{
+
+#weekNo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 608px;
+  margin-left: 49px;
+  align-items: center;
+
+}
+
+#weekNo a {
+  text-decoration: none;
+  color: white;
+}
+
+#text {
+  margin-right: 49px;
+}
+
+#text a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.week-resources {
+  margin: 70px 49px;
+  padding-top: 60px;
+
+}
+
+.week-resource-heading {
   font-size: 64px;
   letter-spacing: 2px;
   line-height: 60pt;
-  font-family:'SequelSansLight';
-  font-weight:800;
+  font-family: 'SequelSansLight';
+  font-weight: 800;
 }
-.week-resource-caption{
+
+.week-resource-caption {
   display: flex;
   justify-content: space-between;
-  padding-bottom:50px;
+  padding-bottom: 50px;
 }
-.week-resource-subtitle{
+
+.week-resource-subtitle {
   font-size: 24px;
   line-height: 32pt;
   letter-spacing: 2px;
-  font-family:'SequelSansLight';
-  color:rgba(255, 255, 255, 0.60);
+  font-family: 'SequelSansLight';
+  color: rgba(255, 255, 255, 0.60);
 }
-.week-resource-assignment{
+
+.week-resource-assignment {
   font-size: 24px;
   line-height: 32pt;
   letter-spacing: 2px;
   font-weight: bold;
-  font-family:'SequelSansLight';
-}
-.assignment_link_icon{
-  width:24px;
+  font-family: 'SequelSansLight';
 }
 
-.resourcecard{
-  background-color: transparent;
-  padding-left: 10px;padding-right: 10px;
- 
+.assignment_link_icon {
+  width: 24px;
 }
-.resourcetitle{
+
+.resourcecard {
+  background-color: transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.resourcetitle {
   font-size: 16px;
   font-family: 'SequelSansRoman';
   line-height: 32pt;
   letter-spacing: 2px;
-  color:rgba(255, 255, 255, 080);
+  color: rgba(255, 255, 255, 080);
   font-weight: 100;
 }
-.resourcecontent{
+
+.resourcecontent {
   font-size: 28px;
   font-family: 'SequelSansRoman';
   line-height: 32pt;
   letter-spacing: 2px;
-  color:rgba(255, 255, 255, 080);
+  color: rgba(255, 255, 255, 080);
 }
-.resourceview{
+
+.resourceview {
   font-size: 16px;
   font-family: 'SequelSansRoman';
   line-height: 32pt;
   letter-spacing: 2px;
-  color:rgba(255, 255, 255, 080);
+  color: rgba(255, 255, 255, 080);
 }
-.view_resorce_link_icon{
-  width:16px;
+
+.view_resorce_link_icon {
+  width: 16px;
 }
+
 /* footer */
 
-.footer
-{
-margin:49px;
-color: white;
-position:relative;
-display: flex;
-justify-content: space-between;
+.footer {
+  margin: 49px;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 
 }
-.footer-title{
-  margin:0;
+
+.footer-title {
+  margin: 0;
   font-weight: 800;
   font-size: 36px;
   color: #FFFFFF;
@@ -376,63 +466,70 @@ justify-content: space-between;
   margin: 0;
   font-family: 'Neutro';
 }
-.footer-caption{
-  margin:0;
+
+.footer-caption {
+  margin: 0;
   line-height: 32pt;
   font-weight: bold;
   letter-spacing: 2%;
-  font-size:20px;
-  font-family: 'SequelSansLight';
-}
-.footer-copyright{
-  margin:0;
-  color:rgba(255, 255, 255, 0.60);
-  font-size:18px;
+  font-size: 20px;
   font-family: 'SequelSansLight';
 }
 
-.images{
+.footer-copyright {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 18px;
+  font-family: 'SequelSansLight';
+}
+
+.images {
   position: relative;
 }
-.img1
-{
+
+.img1 {
   position: absolute;
   right: 0px;
   top: 0px;
 }
-.img2
-{
+
+.img2 {
   position: absolute;
   right: 82px;
   top: 0px;
 }
-.img3
-{
+
+.img3 {
   position: absolute;
   right: 82px;
   top: 42px;
 }
-.img4
-{
+
+.img4 {
   position: absolute;
   right: 42px;
   top: 84px;
 }
-.img5
-{
+
+.img5 {
   position: absolute;
   right: 0px;
   top: 84px;
 }
 
 @media screen and (max-width:380px) {
-  body{
+  body {
     background-position: right;
   }
-  .about-container,.upcoming-talks,.weeks,.footer{
-    margin:10px;
+
+  .about-container,
+  .upcoming-talks,
+  .weeks,
+  .footer {
+    margin: 10px;
   }
-  .so-title{
+
+  .so-title {
     font-weight: 800;
     font-size: 30px;
     color: #FFFFFF;
@@ -440,33 +537,41 @@ justify-content: space-between;
     letter-spacing: 2px;
     padding-bottom: 32px;
   }
-  
-  
+
+
 }
 
 
 
 @media screen and (max-width:725px) {
-  *{
-    font-size:medium;
+  * {
+    font-size: medium;
     text-align: center;
   }
-  body{
-    background-position:right;
+
+  body {
+    background-position: right;
   }
-  .about-container,.upcoming-talks,.weeks,.footer{
-    margin:20px;
+
+  .about-container,
+  .upcoming-talks,
+  .weeks,
+  .footer {
+    margin: 20px;
   }
+
   /* Header */
-  .header{
+  .header {
     margin: 30px;
   }
-  .headings{
+
+  .headings {
     font-size: 25px;
     line-height: 31pt;
     text-align: center;
   }
-  .so-title{
+
+  .so-title {
     font-weight: 800;
     font-size: 39px;
     color: #FFFFFF;
@@ -474,7 +579,8 @@ justify-content: space-between;
     letter-spacing: 2px;
     padding-bottom: 32px;
   }
-  .so-caption{
+
+  .so-caption {
     font-size: 23px;
     color: #FFFFFF;
     line-height: 9pt;
@@ -482,39 +588,48 @@ justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .register_now_link{
-    width:23px;
+
+  .register_now_link {
+    width: 23px;
   }
-  .about{
-    font-size:20px;
+
+  .about {
+    font-size: 20px;
   }
-  .about-container,.week-nav,.cards-wrapper,.week-resource-caption {  
-      display: block;
-      text-align: center;
+
+  .about-container,
+  .week-nav,
+  .cards-wrapper,
+  .week-resource-caption {
+    display: block;
+    text-align: center;
   }
-  
+
   .about-left {
     display: inline;
   }
-  .about-right{
+
+  .about-right {
     display: inline;
   }
 
   /*Footer*/
-  .footer-left{
-    width:50%;
+  .footer-left {
+    width: 50%;
   }
 
-  .footer-caption{
+  .footer-caption {
     font-size: 16px;
     line-height: 20pt;
   }
-  .footer-title{
-    font-size:20px;
+
+  .footer-title {
+    font-size: 20px;
     line-height: 26px;
   }
-  .footer-copyright{
-    font-size:15px;
+
+  .footer-copyright {
+    font-size: 15px;
   }
 
   /* Cards */
@@ -522,13 +637,16 @@ justify-content: space-between;
     padding-top: 84px;
     padding-bottom: 84px;
   }
-  .resourcecard{
-    padding:30px 0px;
+
+  .resourcecard {
+    padding: 30px 0px;
   }
-  .week-resource-heading{
-    font-size:35px;
-    line-height:31pt;
+
+  .week-resource-heading {
+    font-size: 35px;
+    line-height: 31pt;
   }
+
   .week-resource-subtitle {
     font-size: 20px;
     line-height: 25pt;
@@ -536,55 +654,62 @@ justify-content: space-between;
     font-family: 'SequelSansLight';
     color: rgba(255, 255, 255, 0.60);
   }
-  .week-resource-assignment{
+
+  .week-resource-assignment {
     font-size: 20px;
     line-height: 32pt;
     letter-spacing: 2px;
     font-weight: bold;
-    font-family:'SequelSansLight';
+    font-family: 'SequelSansLight';
   }
-  .assignment_link_icon{
-    width:19px;
+
+  .assignment_link_icon {
+    width: 19px;
   }
 
 
   .talkDescription {
-    font-family: "SSRD",sans-serif;
+    font-family: "SSRD", sans-serif;
     font-size: 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.61);
     padding-top: 12px;
     margin-top: 0px;
   }
-  .talkWatch{
-    font-family: "SSRD",sans-serif;
+
+  .talkWatch {
+    font-family: "SSRD", sans-serif;
     font-size: 20px;
     padding-top: 0px;
     margin-top: 0px;
   }
+
   .speakerDesignation {
-    font-family: "SSLD",sans-serif;
+    font-family: "SSLD", sans-serif;
     font-size: 20px;
     padding-top: 4px;
     padding-bottom: 4px;
   }
+
   .speakerName {
     font-family: "SSRD", sans-serif;
     font-size: 24px;
     margin-top: 8px;
     margin-bottom: 8px;
   }
-  .timing{
-    height:45px;
+
+  .timing {
+    height: 45px;
   }
-  .timing p{
-    font-size:17px;
+
+  .timing p {
+    font-size: 17px;
   }
 
 }
 
 @media screen and (max-width:379px) {
 
-  .so-title{
+  .so-title {
     font-weight: 800;
     font-size: 30px;
     color: #FFFFFF;
@@ -592,9 +717,6 @@ justify-content: space-between;
     letter-spacing: 2px;
     padding-bottom: 32px;
   }
-  
-  
+
+
 }
-
-
-  
