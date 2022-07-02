@@ -528,5 +528,19 @@ justify-content: space-between;
 
 }
 
+@media screen and (max-width:379px) {
+
+  .so-title{
+    font-weight: 800;
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 30pt;
+    letter-spacing: 2px;
+    padding-bottom: 32px;
+  }
+  
+  
+}
+
 
   
