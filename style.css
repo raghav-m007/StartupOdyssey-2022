@@ -94,6 +94,7 @@ body{
 .about{
      padding: 0%;
      font-family:'SequelSansRoman';
+  font-size:24px;
 }
 .about-left{
     margin: 49px;
@@ -443,7 +444,9 @@ justify-content: space-between;
   .register_now_link{
     width:23px;
   }
-  
+  .about{
+    font-size:20px;
+  }
   .about-container,.week-nav,.cards-wrapper,.week-resource-caption {  
       display: block;
       text-align: center;
@@ -486,14 +489,14 @@ justify-content: space-between;
     line-height:31pt;
   }
   .week-resource-subtitle {
-    font-size: 19px;
+    font-size: 20px;
     line-height: 25pt;
     letter-spacing: 2px;
     font-family: 'SequelSansLight';
     color: rgba(255, 255, 255, 0.60);
   }
   .week-resource-assignment{
-    font-size: 16px;
+    font-size: 20px;
     line-height: 32pt;
     letter-spacing: 2px;
     font-weight: bold;
